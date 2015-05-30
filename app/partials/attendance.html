@@ -1,0 +1,87 @@
+
+
+
+
+
+	<div ng-controller="AttendanceCtrl">
+		
+		<div class="page-header">
+			<h1>Attendance</h1>
+		</div>
+		
+		
+		<table> 
+		
+			<tr><td>Search: <input ng-model="query"> </td>
+			<td> Sort by:
+				<select ng-model="orderProp">
+				  <option value="name">Alphabetical</option>
+				  <option value="age">Newest</option>
+				</select>
+			</td>
+		</table>
+
+		<p>
+		
+	
+		
+		
+		
+		
+		<p><strong>Page:</strong> {{tableParams.page()}}
+		   &nbsp;<strong>Count per page:</strong> {{tableParams.count()}}
+		</p>
+		
+		<div class="pull-right padded;align:right" >
+            <div class="btn-group">
+                <button type="button" ng-class="{'active': tabState == 'example'}" ng-click="tabState = 'example'" class="btn btn-default">Example</button>
+                <button type="button" ng-class="{'active': tabState == 'code'}" ng-click="tabState = 'code'" class="btn btn-default">Code</button>
+            </div>
+        </div>
+        
+		
+		
+		<table ng-table="tableParams" show-filter="true" template-pagination="custom/pager" class="table" >
+			<tr ng-repeat="employee in attendanceData  |  filter:query">
+			
+				<td data-title="'Employee Id'" >{{employee.employeeId}}
+				   </td>
+			   <td data-title="'First Name'" >{{employee.firstName}}
+			   
+			   </td>
+			   <td data-title="'Last Name'">{{employee.lastName}}
+			   
+			   </td>
+			   <td data-title="'Email'">{{employee.email}}
+			   
+			   </td>
+			   
+				<td data-title="'Phone'">{{employee.mobile}}
+				
+				</td>
+			</tr>
+		 </table>
+
+		<script type="text/ng-template" id="custom/pager">
+        <ul class="pager ng-cloak">
+            <li ng-repeat="page in pages"
+                ng-class="{'disabled': !page.active, 'previous': page.type == 'prev', 'next': page.type == 'next'}"
+                ng-show="page.type == 'prev' || page.type == 'next'" ng-switch="page.type">
+                <a ng-switch-when="prev" ng-click="params.page(page.number)" href="">&laquo; Previous</a>
+                <a ng-switch-when="next" ng-click="params.page(page.number)" href="">Next &raquo;</a>
+            </li>
+            <li>
+                <div class="btn-group">
+
+                    <button type="button" ng-class="{'active':params.count() == 10}" ng-click="params.count(10)" class="btn btn-default">10</button>
+                    <button type="button" ng-class="{'active':params.count() == 25}" ng-click="params.count(25)" class="btn btn-default">25</button>
+                    <button type="button" ng-class="{'active':params.count() == 50}" ng-click="params.count(50)" class="btn btn-default">50</button>
+                    <button type="button" ng-class="{'active':params.count() == 100}" ng-click="params.count(100)" class="btn btn-default">100</button>
+                </div>
+            </li>
+        </ul>
+    </script>
+	 
+
+		
+	</div>

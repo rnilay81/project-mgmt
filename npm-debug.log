@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ng-table-export' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose install initial load of c:\nilay\Workspaces\project-mng-sys\package.json
+5 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\angular-animate\package.json
+6 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\angular-filter\package.json
+7 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\angular-material-icons\package.json
+8 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\angular-route\package.json
+9 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\array-filter\package.json
+10 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\bower\package.json
+11 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\http-server\package.json
+12 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma\package.json
+13 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-chrome-launcher\package.json
+14 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-coffee-preprocessor\package.json
+15 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-firefox-launcher\package.json
+16 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-html2js-preprocessor\package.json
+17 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-jasmine\package.json
+18 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-junit-reporter\package.json
+19 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-phantomjs-launcher\package.json
+20 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-requirejs\package.json
+21 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\karma-script-launcher\package.json
+22 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\ng-table\package.json
+23 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\protractor\package.json
+24 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\requirejs\package.json
+25 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\selenium-webdriver\package.json
+26 verbose installManyTop reading scoped package data from c:\nilay\Workspaces\project-mng-sys\node_modules\shelljs\package.json
+27 verbose readDependencies loading dependencies from c:\nilay\Workspaces\project-mng-sys\package.json
+28 silly cache add args [ 'ng-table-export', null ]
+29 verbose cache add spec ng-table-export
+30 silly cache add parsed spec { raw: 'ng-table-export',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'ng-table-export',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: '*',
+30 silly cache add   type: 'range' }
+31 silly addNamed ng-table-export@*
+32 verbose addNamed "*" is a valid semver range for ng-table-export
+33 silly addNameRange { name: 'ng-table-export', range: '*', hasData: false }
+34 silly mapToRegistry name ng-table-export
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/ng-table-export
+38 verbose addNameRange registry:https://registry.npmjs.org/ng-table-export not in flight; fetching
+39 verbose request uri https://registry.npmjs.org/ng-table-export
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 1:52:14 AM
+42 verbose request id 365333492ea49f51
+43 http request GET https://registry.npmjs.org/ng-table-export
+44 http 404 https://registry.npmjs.org/ng-table-export
+45 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=0',
+45 verbose headers   'content-length': '51',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   date: 'Fri, 29 May 2015 20:22:12 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1432930932.759382,VS0,VE216' }
+46 silly get cb [ 404,
+46 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly get     'content-type': 'application/json',
+46 silly get     'cache-control': 'max-age=0',
+46 silly get     'content-length': '51',
+46 silly get     'accept-ranges': 'bytes',
+46 silly get     date: 'Fri, 29 May 2015 20:22:12 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-sin6921-SIN',
+46 silly get     'x-cache': 'MISS',
+46 silly get     'x-cache-hits': '0',
+46 silly get     'x-timer': 'S1432930932.759382,VS0,VE216' } ]
+47 verbose stack Error: 404 Not Found: ng-table-export
+47 verbose stack     at CachingRegistryClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:245:14)
+47 verbose stack     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+47 verbose stack     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:368:22)
+47 verbose stack     at Request.emit (events.js:110:17)
+47 verbose stack     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1219:14)
+47 verbose stack     at Request.emit (events.js:129:20)
+47 verbose stack     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1167:12)
+47 verbose stack     at IncomingMessage.emit (events.js:129:20)
+47 verbose stack     at _stream_readable.js:908:16
+47 verbose stack     at process._tickCallback (node.js:355:11)
+48 verbose statusCode 404
+49 verbose pkgid ng-table-export
+50 verbose cwd c:\nilay\Workspaces\project-mng-sys
+51 error Windows_NT 6.3.9600
+52 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "ng-table-export"
+53 error node v0.12.3
+54 error npm  v2.9.1
+55 error code E404
+56 error 404 Not Found: ng-table-export
+56 error 404
+56 error 404 'ng-table-export' is not in the npm registry.
+56 error 404 You should bug the author to publish it (or use the name yourself!)
+56 error 404 It was specified as a dependency of 'material-start'
+56 error 404
+56 error 404 Note that you can also install from a
+56 error 404 tarball, folder, http url, or git url.
+57 verbose exit [ 1, true ]
